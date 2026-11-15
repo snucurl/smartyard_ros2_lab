@@ -1,0 +1,33 @@
+스마트야드 ROS 2 실습 기록
+========================
+이름 / 조 / 일자:
+코드 버전(커밋 또는 배포본):
+
+[환경]
+PC 1 Windows / WSL / Ubuntu / ROS / RMW:
+PC 2 Windows / WSL / Ubuntu / ROS / RMW:
+PC 3 Windows / WSL / Ubuntu / ROS / RMW:
+PC 4 Windows / WSL / Ubuntu / ROS / RMW:
+도메인 ID / 네임스페이스:
+실습 LAN / 방화벽 적용 범위:
+
+[실험별 기록: 이 구간을 복사하여 사용]
+실험 이름:
+작업 ID:
+변경한 노드와 파라미터:
+변경 전 / 후 값:
+예상 결과:
+서비스 allowed / reason:
+액션 수락 여부 / 최종 상태 / reason:
+이동 거리 / 소요 시간:
+관찰 로그:
+예상과 다른 점 / 원인:
+복구 명령 / 복구 확인:
+
+[마무리]
+네 PC 동일 커밋 확인:
+정상 / 취소 / 장애물 / 센서 단절 확인:
+도메인 / QoS 오류 복구 확인:
+원격 파라미터 / YAML 복원 확인:
+GitHub 업로드 및 다른 PC 재현:
+남은 문제:

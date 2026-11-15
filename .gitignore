@@ -1,0 +1,12 @@
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+validation/ros_run/
+*.bag
+*.db3
+*.mcap
+.env

@@ -1,0 +1,49 @@
+{
+  "source_checks_passed": 19,
+  "core_tests_passed": 16,
+  "core_tests": [
+    "test_busy",
+    "test_empty_job",
+    "test_invalid_sensor",
+    "test_missing_sensor",
+    "test_motion_clamps",
+    "test_normal",
+    "test_obstacle",
+    "test_overload",
+    "test_parameter_range_and_type",
+    "test_piecewise_motion",
+    "test_stale_sensor",
+    "test_stale_vehicle",
+    "test_threshold_inclusive",
+    "test_unknown_route",
+    "test_wind",
+    "test_wrong_zone"
+  ],
+  "source_checks": [
+    "Python 3.10 syntax: scripts\\ros_integration_check.py",
+    "Python 3.10 syntax: scripts\\validate_local.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\launch\\all.launch.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\launch\\pc1.launch.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\launch\\pc2.launch.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\launch\\pc3.launch.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\launch\\pc4.launch.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\setup.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\__init__.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\common.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\control_center.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\core.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\dispatch_checker.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\parameter_tool.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\sensor_station.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\smartyard_lab\\transporter.py",
+    "Python 3.10 syntax: src\\smartyard_lab\\test\\test_core.py",
+    "package.xml: smartyard_interfaces",
+    "package.xml: smartyard_lab"
+  ],
+  "not_executed_here": [
+    "colcon/rosidl build",
+    "ROS 2 process integration",
+    "WSL2 networking",
+    "four-PC DDS communication"
+  ]
+}

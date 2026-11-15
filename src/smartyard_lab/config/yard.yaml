@@ -1,0 +1,29 @@
+/**/sensor_station:
+  ros__parameters:
+    publish_rate_hz: 5.0
+    load_t: 40.0
+    wind_speed_mps: 6.0
+    route_blocked: false
+    block_id: BLOCK_001
+    zone_id: A
+    reliable_sensor: false
+/**/dispatch_checker:
+  ros__parameters:
+    max_load_t: 50.0
+    max_wind_mps: 10.0
+    sensor_timeout_sec: 3.0
+/**/transporter:
+  ros__parameters:
+    travel_speed_mps: 1.0
+    max_load_t: 50.0
+    max_wind_mps: 10.0
+    sensor_timeout_sec: 3.0
+/**/control_center:
+  ros__parameters:
+    job_id: JOB_001
+    block_id: BLOCK_001
+    source_zone: A
+    target_zone: B
+    sensor_timeout_sec: 3.0
+    request_timeout_sec: 5.0
+    task_timeout_sec: 180.0

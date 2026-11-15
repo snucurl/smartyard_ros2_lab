@@ -1,0 +1,8 @@
+string job_id
+string block_id
+string source_zone
+string target_zone
+---
+bool allowed
+string reason
+float64 distance_m
